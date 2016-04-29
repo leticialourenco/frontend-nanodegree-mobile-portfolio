@@ -506,7 +506,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-  // Toke the definition of var phase out of the loop
+  // Toke out of the loop since there's no necessity of declaring it at every single iteration 
   var phase;
   // Exchange 'querySelectorAll' to 'getElementsByClassName' for efficiency
   var items = document.getElementsByClassName('mover');
