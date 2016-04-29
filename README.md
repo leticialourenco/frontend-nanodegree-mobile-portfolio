@@ -54,7 +54,6 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
-***
 
 ## Performance Optimization
 
@@ -65,8 +64,8 @@ Launch website by clicking [here](http://leticialourenco.github.io/frontend-nano
 * Compressed the images profilepic.jpg and pizzeria.jpg
 * Embedded above-the-fold CSS to eliminate render-blocking
 * Minified the CSS
-* Added media="print" for print.css to eliminate render-blocking
-* Added async attribute to javascript files
+* Added ```media="print"``` for print.css to eliminate render-blocking
+* Added ```async``` attribute to javascript files
 * Added .htaccess file to leverage browser caching
 
 ### Cam's Pizzeria changes
