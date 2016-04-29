@@ -453,8 +453,8 @@ var resizePizzas = function(size) {
     // Place randomPizzaContainer access to a variable to achieve less access to DOM
     var randomPizzaContainer = document.getElementsByClassName("randomPizzaContainer");
     // Toke out of the loop since there's no necessity of access at every single iteration 
-    var dx = determineDx(randomPizzaContainer[i], size);
-    var newwidth = (randomPizzaContainer[i].offsetWidth + dx) + 'px';
+    var dx = determineDx(randomPizzaContainer[0], size);
+    var newwidth = (randomPizzaContainer[0].offsetWidth + dx) + 'px';
     // Loop thru pizza contaier and change the width
     for (var i = 0; i < randomPizzaContainer.length; i++) {
       randomPizzaContainer[i].style.width = newwidth;
